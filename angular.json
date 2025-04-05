@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "fake-twitter:build:production"
+              "buildTarget": "fake-twitter:build:production"
             },
             "development": {
-              "browserTarget": "fake-twitter:build:development"
+              "buildTarget": "fake-twitter:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "fake-twitter:build"
+            "buildTarget": "fake-twitter:build"
           }
         },
         "test": {
