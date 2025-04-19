@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "firstname": "Abhijit",
+        "lastname": "Goswami",
+        "email": "abhijeetgoswami45@gmail.com",
+        "password": "password123",
+        "mobile": "1234567890",
+        "roleId": 1
+    },
+    {
+        "id": 2,
+        "firstname": "Jane",
+        "lastname": "Smith",
+        "email": "jane.smith@example.com",
+        "password": "securepass456",
+        "mobile": "0987654321",
+        "roleId": 2
+    },
+    {
+        "id": 3,
+        "firstname": "Alice",
+        "lastname": "Johnson",
+        "email": "alice.johnson@example.com",
+        "password": "alicepass789",
+        "mobile": "1122334455",
+        "roleId": 2
+    },
+    {
+        "id": 4,
+        "firstname": "Bob",
+        "lastname": "Brown",
+        "email": "bob.brown@example.com",
+        "password": "bobsecure321",
+        "mobile": "6677889900",
+        "roleId": 2
+    },
+    {
+        "id": 5,
+        "firstname": "Charlie",
+        "lastname": "Davis",
+        "email": "charlie.davis@example.com",
+        "password": "charliepass654",
+        "mobile": "4455667788",
+        "roleId": 2
+    }
+]

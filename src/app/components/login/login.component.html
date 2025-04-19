@@ -1,1 +1,21 @@
-<p>login works!</p>
+<ng-template #content let-c="close" let-d="dismiss">
+	<div class="modal-header">
+		<h4 class="modal-title" id="modal-basic-title">LogIn</h4>
+		<button type="button" class="btn-close" aria-label="Close" (click)="d('Cross click')"></button>
+	</div>
+	<div class="modal-body">
+		<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+            <label for="email">Email: </label>
+            <input id="email" type="email" formControlName="email" />
+            <label for="password">Password: </label>
+            <input id="password" type="password" formControlName="password" />
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-outline-secondary" (click)="d('Cross click')">Login</button>
+            </div>
+        </form>
+	</div>
+</ng-template>
+
+<li class="nav-item">
+    <button class="btn btn btn-success" (click)="open(content)">Login</button>
+</li>
