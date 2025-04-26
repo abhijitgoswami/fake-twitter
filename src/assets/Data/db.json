@@ -1,0 +1,87 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "firstName": "Abhijit",
+      "lastName": "Goswami",
+      "email": "abhijeetgoswami45@gmail.com",
+      "password": "password123",
+      "mobile": "1234567890",
+      "roleId": 1
+    }
+  ],
+  "Posts": [
+    {
+      "id": 1,
+      "title": "john_doe",
+      "body": "Body of the post",
+      "userId": 1,
+      "createdAt": "2023-03-01T08:30:00Z",
+      "modifiedAt": "2023-03-01T08:30:00Z"
+    },
+    {
+      "id": 2,
+      "title": "john_doe2",
+      "body": "Body of the post2",
+      "userId": 1,
+      "createdAt": "2023-03-01T08:30:00Z",
+      "modifiedAt": "2023-03-01T08:30:00Z"
+    },
+    {
+      "id": 3,
+      "title": "john_doe3",
+      "body": "Body of the post3",
+      "userId": 1,
+      "createdAt": "2023-03-01T08:30:00Z",
+      "modifiedAt": "2023-03-01T08:30:00Z"
+    },
+    {
+      "id": 1,
+      "title": "john_doe",
+      "body": "Body of the post",
+      "userId": 1,
+      "createdAt": "2023-03-01T08:30:00Z",
+      "modifiedAt": "2023-03-01T08:30:00Z"
+    },
+    {
+      "id": 2,
+      "title": "john_doe2",
+      "body": "Body of the post2",
+      "userId": 1,
+      "createdAt": "2023-03-01T08:30:00Z",
+      "modifiedAt": "2023-03-01T08:30:00Z"
+    },
+    {
+      "id": 3,
+      "title": "john_doe3",
+      "body": "Body of the post3",
+      "userId": 1,
+      "createdAt": "2023-03-01T08:30:00Z",
+      "modifiedAt": "2023-03-01T08:30:00Z"
+    },
+    {
+      "id": 1,
+      "title": "john_doe",
+      "body": "Body of the post",
+      "userId": 1,
+      "createdAt": "2023-03-01T08:30:00Z",
+      "modifiedAt": "2023-03-01T08:30:00Z"
+    },
+    {
+      "id": 2,
+      "title": "john_doe2",
+      "body": "Body of the post2",
+      "userId": 1,
+      "createdAt": "2023-03-01T08:30:00Z",
+      "modifiedAt": "2023-03-01T08:30:00Z"
+    },
+    {
+      "id": 3,
+      "title": "john_doe3",
+      "body": "Body of the post3",
+      "userId": 1,
+      "createdAt": "2023-03-01T08:30:00Z",
+      "modifiedAt": "2023-03-01T08:30:00Z"
+    }
+  ]
+}

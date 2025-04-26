@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="d-flex flex-wrap gap-4">
+        <div *ngFor="let post of posts">
+            <div class="card border-info" style="width: 18rem;">
+                <div class="card-header">{{getUserName(post.userId)}}</div>
+                <div class="card-body text-info">
+                <h5 class="card-title">{{post.title}}</h5>
+                <p class="card-text">{{post.body}}</p>
+            </div>
+        </div>
+    </div>
+</div>

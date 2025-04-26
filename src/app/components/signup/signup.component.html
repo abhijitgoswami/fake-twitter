@@ -1,18 +1,35 @@
+<ng-template #content let-c="close" let-d="dismiss">
+	<div class="modal-header">
+		<h4 class="modal-title" id="modal-basic-title">Log In</h4>
+		<button type="button" class="btn-close" aria-label="Close" (click)="d('Cross click')"></button>
+	</div>
+	<div class="modal-body">
+		<form id="signUpForm" [formGroup]="signupForm" (ngSubmit)="onSubmit()" class="container">
+            <div class="row">
+                <label class="col-lg-3" for="first-name">First Name: </label>
+                <input class="col-lg-9" id="first-name" type="text" formControlName="firstName" />
+            </div>
+            <div class="row">
+                <label class="col-lg-3" for="last-name">Last Name: </label>
+                <input class="col-lg-9" id="last-name" type="text" formControlName="lastName" />
+            </div>
+            <div class="row">
+                <label class="col-lg-3" for="mobile">Mobile: </label>
+                <input class="col-lg-9" id="mobile" type="number" formControlName="mobile" />
+            </div>
+            <div class="row">
+                <label class="col-lg-3" for="email">Email: </label>
+                <input class="col-lg-9" id="email" type="email" formControlName="email" />
+            </div>
+            <div class="row">
+                <label class="col-lg-3" for="password">Password: </label>
+                <input class="col-lg-9" id="password" type="password" formControlName="password" />
+            </div>
+            <button class="btn btn-primary" (click)="d('Cross click')">Sign Up</button>
+        </form>
+	</div>
+</ng-template>
+
 <li class="nav-item">
-    <button class="btn btn-success" type="submit">SignUp</button>
+    <button class="btn" (click)="open(content)">SignUp</button>
 </li>
-
-<!-- <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
-    <label for="first-name">First Name: </label>
-    <input id="first-name" type="text" formControlName="firstName" />
-    <label for="last-name">Last Name: </label>
-    <input id="last-name" type="text" formControlName="lastName" />
-    <label for="mobile">Mobile: </label>
-    <input id="mobile" type="number" formControlName="mobile" />
-    <label for="email">Email: </label>
-    <input id="email" type="email" formControlName="email" />
-    <label for="password">Password: </label>
-    <input id="password" type="password" formControlName="password" />
-
-    <button>Sign Up</button>
-</form> -->
