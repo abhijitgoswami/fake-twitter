@@ -5,10 +5,11 @@ import { UserService } from 'src/app/Service/UserService';
 import { User } from 'src/Model/User';
 
 @Component({
-  selector: 'app-signup',
-  templateUrl: './signup.component.html',
-  styleUrls: ['./signup.component.css'],
-  providers: [NgbModalConfig, NgbModal, NgbActiveModal, UserService]
+    selector: 'app-signup',
+    templateUrl: './signup.component.html',
+    styleUrls: ['./signup.component.css'],
+    providers: [NgbModalConfig, NgbModal, NgbActiveModal, UserService],
+    standalone: false
 })
 export class SignupComponent implements OnInit {
 

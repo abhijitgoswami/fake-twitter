@@ -5,10 +5,11 @@ import { AuthService } from 'src/app/Service/AuthService';
 import { UserService } from 'src/app/Service/UserService';
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css'],
-  providers: [NgbModalConfig, NgbModal, NgbActiveModal]
+    selector: 'app-login',
+    templateUrl: './login.component.html',
+    styleUrls: ['./login.component.css'],
+    providers: [NgbModalConfig, NgbModal, NgbActiveModal],
+    standalone: false
 })
 export class LoginComponent implements OnInit {
 

@@ -6,10 +6,11 @@ import { Post } from 'src/Model/Post';
 import { User } from 'src/Model/User';
 
 @Component({
-  selector: 'app-post',
-  templateUrl: './post.component.html',
-  styleUrl: './post.component.css',
-  providers: [PostService, UserService, AuthService],
+    selector: 'app-post',
+    templateUrl: './post.component.html',
+    styleUrl: './post.component.css',
+    providers: [PostService, UserService, AuthService],
+    standalone: false
 })
 export class PostComponent {
   posts: Post[] = []; // Initialize posts as an empty array
